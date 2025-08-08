@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0b0c2a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.kbc-logo {
+  width: 150px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 10px 0 20px;
+}
+
+.kbc-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left-panel {
+  flex: 1 1 60%;
+  min-width: 100px;
+  background-color: #1a1a40;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+
+.right-panel {
+  flex: 1 1 35%;
+  min-width: 150px;
+  background-color: #131339;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.15);
+}
+
+#question {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  background-color: #000a7c;
+  padding: 15px;
+  border: 3px solid #ffd700;
+  border-radius: 12px;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.option-button {
+  padding: 12px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #000a7c;
+  color: #fff;
+  border: 2px solid #ffd700;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  text-align: left;
+}
+
+.option-button span {
+  font-weight: bold;
+  color: #ffd700;
+  margin-right: 10px;
+}
+
+.option-button:hover {
+  background-color: #1c1cff;
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.option-button.correct {
+  background-color: green;
+  color: #fff;
+}
+
+.option-button.wrong {
+  background-color: red;
+  color: #fff;
+}
+
+#lifelines {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.lifeline img {
+  width: 90px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.lifeline img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.5);
+}
+
+#prize-ladder {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.right-panel {
+  position: sticky;
+  top: 10px; /* small gap from top */
+  align-self: flex-start;
+  height: fit-content;
+}
+
+.prize-step {
+  padding: 6px 10px;
+  background-color: #13274f;
+  margin: 2px 0;
+  border-radius: 4px;
+  color: #ccc;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#prize-money {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+
+.active-step {
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .kbc-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%;
+  }
+
+  #lifelines {
+    flex-direction: column;
+  }
+
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kbc-logo {
+    width: 120px;
+  }
+}
