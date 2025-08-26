@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What is the capital of Frce?",
+    "answers": ["Berlin", "London", "Paris", "Madrid"],
+    "correct": 2
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answers": ["Earth", "Mars", "Jupiter", "Venus"],
+    "correct": 1
+  },
+  {
+    "question": "Who wrote 'Hamlet'?",
+    "answers": ["Shakespeare", "Tolkien", "Dickens", "Austen"],
+    "correct": 0
+  },
+  {
+    "question": "Which gas is most abundant in the Earth's atmosphere?",
+    "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct": 2
+  },
+  {
+    "question": "What is the square root of 144?",
+    "answers": ["10", "12", "14", "16"],
+    "correct": 1
+  },
+  {
+    "question": "Which ocean is the largest?",
+    "answers": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "correct": 3
+  },
+  {
+    "question": "How many continents are there?",
+    "answers": ["5", "6", "7", "8"],
+    "correct": 2
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answers": ["Van Gogh", "Picasso", "Da Vinci", "Michelangelo"],
+    "correct": 2
+  },
+  {
+    "question": "Which element has the chemical symbol 'O'?",
+    "answers": ["Gold", "Oxygen", "Iron", "Hydrogen"],
+    "correct": 1
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "answers": ["0", "1", "2", "3"],
+    "correct": 2
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "answers": ["Amazon", "Nile", "Yangtze", "Ganges"],
+    "correct": 1
+  },
+  {
+    "question": "Which country hosted the 2020 Olympics?",
+    "answers": ["China", "Japan", "UK", "USA"],
+    "correct": 1
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "answers": ["Salt", "Water", "Oxygen", "Hydrogen"],
+    "correct": 1
+  },
+  {
+    "question": "Which language is primarily spoken in Brazil?",
+    "answers": ["Spanish", "Portuguese", "French", "English"],
+    "correct": 1
+  },
+  {
+    "question": "Which is the fastest land animal?",
+    "answers": ["Lion", "Cheetah", "Leopard", "Tiger"],
+    "correct": 1
+  }
+]
