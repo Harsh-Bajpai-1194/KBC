@@ -48,7 +48,7 @@ let questions = [
   { question: "Which is the largest desert in the world?", answers: ["Thar", "Sahara", "Antarctica", "Gobi"], correct: 2 },
   { question: "Which is the largest planet in our Solar System?", answers: ["Earth", "Saturn", "Jupiter", "Neptune"], correct: 2 },
   { question: "What is the boiling point of water?", answers: ["50°C", "100°C", "150°C", "200°C"], correct: 1 },
-  { question: "Which country has the largest population in the world?", answers: ["USA", "India", "China", "Russia"], correct: 2 },
+  { question: "Which country has the largest population in the world?", answers: ["USA", "India", "China", "Russia"], correct: 1 },
   { question: "Which is the smallest planet in our Solar System?", answers: ["Mercury", "Mars", "Venus", "Pluto"], correct: 0 },
   { question: "What is the national currency of Japan?", answers: ["Yuan", "Yen", "Won", "Dollar"], correct: 1 },
   { question: "Who painted the ceiling of the Sistine Chapel?", answers: ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"], correct: 1 },
